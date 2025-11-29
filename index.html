@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sakshi Mittal — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Sakshi Mittal — Frontend / Full-Stack dev. Portfolio, projects, contact." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Sakshi Mittal</h1>
+        <p class="sub">Frontend · Web · Full-Stack Intern</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero container" id="home">
+      <div class="hero-left">
+        <h2>Hi — I’m Sakshi</h2>
+        <p class="lead">
+          Electronics & Computer Engineering student (PES Modern College, Pune). I build responsive web apps with HTML, CSS, JavaScript and Python.
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn outline" href="mailto:sakshimittal2610@gmail.com">Email Me</a>
+        </div>
+
+        <ul class="meta-list">
+          <li><strong>Location:</strong> Pune, India</li>
+          <li><strong>Email:</strong> <a href="mailto:sakshimittal2610@gmail.com">sakshimittal2610@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/sakshi-mittal26" target="_blank">github.com/sakshi-mittal26</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sakshi-mittal-b39387321/" target="_blank">linkedin.com/in/sakshi-mittal-b39387321</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <div class="card profile-card">
+          <!-- Replace this with actual image file in assets/profile.jpg -->
+          <img src="assets/profile.jpg" alt="Sakshi profile photo" onerror="this.style.display='none'">
+          <div class="card-body">
+            <h3>Sakshi Ghanshyam Mittal</h3>
+            <p class="muted">B.E. Electronics & Computer Engineering (2023–2027)</p>
+            <div class="contact-small">
+              <div><strong>Phone:</strong> +91 91752 17700</div>
+              <div><strong>Email:</strong> sakshimittal2610@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container about">
+      <h3>About</h3>
+      <p>
+        Enthusiastic Electronics and Computer Engineering student with experience in web development, embedded systems and data analytics.
+        Strong problem solving skills with hands-on projects including a Weather App built with Python & Streamlit and multiple frontend pages.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container projects">
+      <h3>Projects</h3>
+      <div class="grid">
+        <article class="project">
+          <h4>Portfolio Website</h4>
+          <p>Responsive personal portfolio built with HTML, CSS and JS. Shows projects, skills and contact details.</p>
+          <p class="small"><strong>Tech:</strong> HTML · CSS · JavaScript</p>
+          <a class="link" href="https://github.com/sakshi-mittal26" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <h4>Weather App</h4>
+          <p>Python + Streamlit app fetching real-time weather data via API. Simple and intuitive UI for city-based queries.</p>
+          <p class="small"><strong>Tech:</strong> Python · Streamlit · APIs</p>
+          <a class="link" href="https://github.com/sakshi-mittal26" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <h4>Landing Page UI</h4>
+          <p>Modern single-page landing design with hero, services and contact. Built for responsive experience.</p>
+          <p class="small"><strong>Tech:</strong> HTML · CSS</p>
+          <a class="link" href="https://github.com/sakshi-mittal26" target="_blank">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container skills">
+      <h3>Skills</h3>
+      <div class="skill-grid">
+        <div class="skill">
+          <strong>Frontend</strong>
+          <span>HTML · CSS · JavaScript · (React basics)</span>
+        </div>
+        <div class="skill">
+          <strong>Backend / Data</strong>
+          <span>Python · SQL · Streamlit · Flask (basics)</span>
+        </div>
+        <div class="skill">
+          <strong>Tools</strong>
+          <span>Git · GitHub · VS Code</span>
+        </div>
+        <div class="skill">
+          <strong>Core Areas</strong>
+          <span>Embedded Systems · Data Analytics</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="container experience">
+      <h3>Experience</h3>
+      <div class="timeline">
+        <div class="item">
+          <h4>Intern — CodSoft (2025)</h4>
+          <p class="muted">Web Development Intern</p>
+          <ul>
+            <li>Built responsive frontend components with HTML/CSS/JavaScript.</li>
+            <li>Worked on Calculator, Landing Page and Portfolio UI projects.</li>
+            <li>Collaborated using Git/GitHub and improved debugging skills.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certs" class="container certs">
+      <h3>Certifications</h3>
+      <ul class="cert-list">
+        <li>Generative AI</li>
+        <li>Cybersecurity Analyst</li>
+        <li>Data Visualization</li>
+        <li>Introduction to SQL</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>If you'd like to collaborate or discuss internship opportunities, reach out — I'm actively looking for paid frontend/full-stack internships (onsite Pune or remote).</p>
+      <form id="contact-form" action="#" onsubmit="handleForm(event)">
+        <div class="form-row">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email" required>
+        </div>
+        <textarea id="message" rows="4" placeholder="Message (role, stipend, location...)" required></textarea>
+        <div class="form-row">
+          <button class="btn primary" type="submit">Send message</button>
+          <a class="btn outline" href="mailto:sakshimittal2610@gmail.com">Or email me</a>
+        </div>
+        <p id="form-msg" class="muted small" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sakshi Mittal </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
