@@ -4,7 +4,7 @@ A modern and responsive landing page built using HTML and CSS.
 Includes a hero section, services/features area, and contact information.
 
 ## 🔗 Live Demo
-(Will be available after enabling GitHub Pages)
+
 
 ## 📂 Tech Stack
 - HTML5  
